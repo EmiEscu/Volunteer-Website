@@ -1,0 +1,9 @@
+.custom-navbar {
+    background-image: url(https://media.licdn.com/dms/image/C563DAQGCV2rTYplgOg/image-scale_191_1128/0/1680978300161/hshacks_cover?e=2147483647&v=beta&t=DxFYI-Y9gSAMnbcGRkeeiQLKEweTILYA5daPBv7Mhos);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    color: white;
+  }

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Create Post {% endblock %}
+{% block content %}
+<div style="text-align: center; background-image: url('https://t3.ftcdn.net/jpg/04/53/64/30/360_F_453643005_A0V7R5tE3Wwu3yZ4qPff4C3BXCx0nyhj.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; width: 100vw; height: 100vh; padding: 50px;">
+
+<h2>Create a Post</h2>
+<form method="post">
+    <table>
+        {{ form }}
+    </table>
+    {% csrf_token %}
+    <button type="submit">Create</button>
+</form>
+</div>
+{% endblock %}

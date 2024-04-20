@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}About Our Platform{% endblock %}
+{% block content %}
+<div style="text-align: center;">
+    <h1>About Our Platform</h1>
+</div>
+<style>
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    p {
+        margin-bottom: 10px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    ul {
+        margin-bottom: 20px;
+        list-style-type: none;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 5px;
+        color: #666;
+    }
+
+    .join {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .join a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .join a:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<div class="container">
+    <h2>What is this website?</h2>
+    
+    <p>This website will allow communites to request service from volunteers, whether it be tutoring, manual labor or simply other community services. In exchange, the volunteers are able to gain service hours and experience.</p>
+
+    <ul style="list-style-type:disc;">
+        <li>Community outreach programs</li>
+        <li>Volunteer-led events and workshops</li>
+        <li>Mentorship and guidance for newcomers</li>
+        <li>Support for local initiatives and campaigns</li>
+    </ul>
+
+    
+</div>
+
+<div class="container">
+    <h2>Why is this platform needed?</h2>
+    <p>Community events may benefit from such a platform as many people are needed to make such open and accessible events. </p>
+    <p class="join">Join us in our mission to create a better world through volunteering! <a href="http://127.0.0.1:8000/new">Request a service!</a></p>
+</div>
+
+
+{% endblock %}
